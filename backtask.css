@@ -1,0 +1,159 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Ink Free;
+    background-color: black;
+	color: white;
+    line-height: 1.6;
+padding-left: 0px; 
+    padding-right: 0px;
+}
+.social-media-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.social-media-icons img {
+  width: 200px;
+  height: 200px;
+border-radius: 15px; 
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-media-icons img:hover {
+  transform: scale(1.2);
+}
+.content {
+    padding: 20px;
+    text-align: center;
+}
+header {
+text-align: center;
+margin-left: 160px;
+    margin-right: 160px;
+
+}
+
+section {
+    margin-bottom: 40px;
+ text=align: justify;
+margin-left: 160px;
+    margin-right: 160px;
+
+.center-button {
+align: center;
+}
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+  
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            background-color: #f0f0f0; /* Light gray background */
+        }
+
+   
+       button {
+            padding: 10px 20px;
+            font-size: 30px;
+text-align: left;
+	    font-family: Ink Free;
+            cursor: pointer;
+            background-color: #000000; 
+            color: white; 
+            border: none;
+            border-radius: 15px; 
+            transition: background-color 0.3s;
+        }
+
+       
+        button:hover {
+            background-color: #A96BF2;
+        }
+      
+
+
+
+}
+h {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+footer {
+    background-color: #A96BF2;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+right: 0;
+left: 0;
+}
+
+
+footer {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+  
+        footer body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            background-color: #f0f0f0;
+        }
+
+   
+        footer button {
+            padding: 10px 20px;
+            font-size: 40px;
+	    font-family: Ink Free;
+            cursor: pointer;
+            background-color: #8B58C7; 
+            color: white; 
+            border: none;
+            border-radius: 10px; 
+            transition: background-color 0.3s;
+        }
+
+      footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+ padding: 10px;
+
+}
+
