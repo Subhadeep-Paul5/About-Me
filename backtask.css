@@ -1,159 +1,78 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #000;
+  }
+  .logo-img{
+      border-radius: 10px;
+  }
+.navbar-brand{
+    color: white;
+    font-size: 28px;
+}
+.navbar-brand:hover{
+    color: white;
 }
 body {
-    font-family: Ink Free;
-    background-color: black;
-	color: white;
-    line-height: 1.6;
-padding-left: 0px; 
-    padding-right: 0px;
+    background-color: #000;
+    color: White;
+    text-align: justify;
+    font-family: footlight MT;
+    padding-top: 70px;
+  }
+.ax{
+    text-align: center;
+    font-size: 56px;
 }
-.social-media-icons {
+.img-thumbnail {
+  gap: 0px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+.img-thumbnail:hover {
+  transform: scale(1.1);
+}
+.scroll-container {
   display: flex;
-  gap: 15px;
-  justify-content: center;
-  padding: 20px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    gap: 10px;
+    justify-content: center;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; 
+  }
+  .scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  .scroll-item {
+    flex-shrink: 0;
+  }
+  .scroll-container img {
+    width: 180px;
+    height: 180px;
+   border-radius: 15px;
+   padding: 0;
+   margin-left: 0;
+  }
+
+.footer {
+    background-color: #C43C62;
+    width: 100vw; /* Ensures the footer takes the full width of the viewport */
+    margin: 0; /* Removes any external margin */
+    padding: 0; /* Removes any padding */
 }
-
-.social-media-icons img {
-  width: 200px;
-  height: 200px;
-border-radius: 15px; 
-  transition: transform 0.2s ease-in-out;
-}
-
-.social-media-icons img:hover {
-  transform: scale(1.2);
-}
-.content {
-    padding: 20px;
-    text-align: center;
-}
-header {
-text-align: center;
-margin-left: 160px;
-    margin-right: 160px;
-
-}
-
-section {
-    margin-bottom: 40px;
- text=align: justify;
-margin-left: 160px;
-    margin-right: 160px;
-
-.center-button {
-align: center;
-}
-
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-  
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Full viewport height */
-            background-color: #f0f0f0; /* Light gray background */
-        }
-
-   
-       button {
-            padding: 10px 20px;
-            font-size: 30px;
-text-align: left;
-	    font-family: Ink Free;
-            cursor: pointer;
-            background-color: #000000; 
-            color: white; 
-            border: none;
-            border-radius: 15px; 
-            transition: background-color 0.3s;
-        }
-
-       
-        button:hover {
-            background-color: #A96BF2;
-        }
-      
-
-
-
-}
-h {
-    font-size: 100px;
-    margin-bottom: 10px;
-}
-h2 {
-    font-size: 45px;
-    margin-bottom: 10px;
-}
-
-h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-h3 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-
-
-
-footer {
-    background-color: #A96BF2;
-    color: black;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-right: 0;
-left: 0;
-}
-
-
-footer {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-  
-        footer body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; 
-            background-color: #f0f0f0;
-        }
-
-   
-        footer button {
-            padding: 10px 20px;
-            font-size: 40px;
-	    font-family: Ink Free;
-            cursor: pointer;
-            background-color: #8B58C7; 
-            color: white; 
-            border: none;
-            border-radius: 10px; 
-            transition: background-color 0.3s;
-        }
-
-      footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
- padding: 10px;
-
-}
-
+  .btn{
+      background-color: #000;
+      color: white;
+      font-size: 20px;
+      border-radius: 15px;
+      padding: 15px 30px;
+  }
+  .btn:hover{
+      color: white;
+  }
+  .link{
+      color: white;
+  }
