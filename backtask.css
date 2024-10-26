@@ -8,6 +8,7 @@
   .logo-img{
       border-radius: 10px;
   }
+
 .navbar-brand{
     color: white;
     font-size: 28px;
@@ -24,11 +25,14 @@ body {
   }
 .ax{
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
 }
+.col-3,
 .img-thumbnail {
+  padding-right: 3px;
+  padding-left: 3px;
   gap: 0px;
-  border-radius: 15px;
+  border-radius: 10px;
   transition: transform 0.3s;
 }
 .img-thumbnail:hover {
